@@ -5,9 +5,9 @@ Screw Bot is a compact robotic system designed to automate the retrieval and pla
 ## Features
 
 - **3-Axis Robotic Arm**  
-  Built using MG995 and SG90 servos for precise pick-and-place control using acrylic and 3D-printed parts.
+  Built using MG995 and MG90S servos for precise pick-and-place control using acrylic and 3D-printed parts.
 
-- **Mobile Base (2WD)**  
+- **Mobile Base (4WD)**  
   Driven by 4 DC motors through an L298N motor driver for maneuverability in indoor workshop settings.
 
 - **Raspberry Pi Zero 2 W Control Unit**  
@@ -21,7 +21,7 @@ Screw Bot is a compact robotic system designed to automate the retrieval and pla
   - **QR Code Detection**: Pyzbar detects and locates QR tags for bin identification.
   
 - **Battery Operated**  
-  Powered by dual 21700 Li-ion cells with TP4056 charging and protection circuit.
+  Powered by dual 21700 Li-ion cells and a 3S self-made battery with TP4056 charging and protection circuit.
 
 ## System Architecture
 
@@ -38,10 +38,11 @@ Screw Bot is a compact robotic system designed to automate the retrieval and pla
 
 - Raspberry Pi Zero 2 W
 - 4x DC Motors
-- L298N H-Bridge Driver
-- 2x MG995 and 2x SG90 Servo Motors
+- 2x L298N H-Bridge Drivers
+- 2x MG995 and 2x MG90S Servo Motors
 - Raspberry Pi Camera Module
 - 2x 21700 Li-ion Batteries (8000mAh)
+- 3S Battery pack consisting 18650 Li-ion cells
 - TP4056 Charging Module
 - Acrylic Chassis & 3D-Printed Arm Links
 
